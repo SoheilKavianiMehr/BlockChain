@@ -29,7 +29,7 @@ A simple yet functional **blockchain implementation** built with **.NET 8** and 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/soheilkavianimehr/blockchain.git
-   cd blockchain-dotnet
+   cd blockchain
    ```
 
 2. **Restore dependencies**
