@@ -1,4 +1,4 @@
-# ?? Simple Blockchain Implementation in .NET 8
+# 🔗 Simple Blockchain Implementation in .NET 8
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,19 +6,19 @@
 
 A simple yet functional **blockchain implementation** built with **.NET 8** and **ASP.NET Core Web API**. This project demonstrates the fundamental concepts of blockchain technology including mining, transactions, proof-of-work consensus, and distributed network nodes.
 
-## ?? Features
+## 🌟 Features
 
-- **?? Mining**: Proof-of-work algorithm with adjustable difficulty
-- **?? Transactions**: Create and manage transactions between parties
-- **?? Blockchain**: Immutable chain of blocks with cryptographic hashing
-- **?? Network Nodes**: Register and communicate with multiple nodes
-- **?? Consensus Algorithm**: Resolve conflicts using the longest chain rule
-- **?? RESTful API**: Complete API for blockchain operations
-- **?? Swagger Documentation**: Interactive API documentation
-- **? Input Validation**: Comprehensive validation for all endpoints
-- **?? Logging**: Structured logging throughout the application
+- **⛏️ Mining**: Proof-of-work algorithm with adjustable difficulty
+- **💰 Transactions**: Create and manage transactions between parties
+- **🔗 Blockchain**: Immutable chain of blocks with cryptographic hashing
+- **🌐 Network Nodes**: Register and communicate with multiple nodes
+- **🤝 Consensus Algorithm**: Resolve conflicts using the longest chain rule
+- **📊 RESTful API**: Complete API for blockchain operations
+- **📋 Swagger Documentation**: Interactive API documentation
+- **✅ Input Validation**: Comprehensive validation for all endpoints
+- **📝 Logging**: Structured logging throughout the application
 
-## ?? Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ A simple yet functional **blockchain implementation** built with **.NET 8** and 
    - Navigate to `https://localhost:7000` for Swagger UI
    - Or use `http://localhost:5000` for HTTP
 
-## ?? API Documentation
+## 📖 API Documentation
 
 ### Blockchain Endpoints
 
@@ -74,7 +74,7 @@ A simple yet functional **blockchain implementation** built with **.NET 8** and 
 |--------|----------|-------------|
 | `GET` | `/api/health` | Check node health status |
 
-## ?? Usage Examples
+## 💡 Usage Examples
 
 ### 1. Create a Transaction
 
@@ -116,7 +116,7 @@ curl -X POST "https://localhost:7000/api/nodes/register" \
 curl -X GET "https://localhost:7000/api/nodes/consensus"
 ```
 
-## ??? Architecture
+## 🏗️ Architecture
 
 ### Core Components
 
@@ -130,20 +130,20 @@ curl -X GET "https://localhost:7000/api/nodes/consensus"
 
 ```
 BlockChain/
-??? Model/
-?   ??? Block.cs          # Block data structure
-?   ??? Transaction.cs    # Transaction model
-?   ??? Node.cs          # Network node representation
-??? Services/
-?   ??? IBlockChainService.cs    # Service interface
-?   ??? BlockChainService.cs     # Core blockchain logic
-??? Dto/
-?   ??? NodeRequest.cs    # Data transfer objects
-??? Program.cs            # Application entry point
-??? README.md           # This file
+├── Model/
+│   ├── Block.cs          # Block data structure
+│   ├── Transaction.cs    # Transaction model
+│   └── Node.cs          # Network node representation
+├── Services/
+│   ├── IBlockChainService.cs    # Service interface
+│   └── BlockChainService.cs     # Core blockchain logic
+├── Dto/
+│   └── NodeRequest.cs    # Data transfer objects
+├── Program.cs            # Application entry point
+└── README.md           # This file
 ```
 
-## ?? Configuration
+## 🔧 Configuration
 
 ### Application Settings
 
@@ -159,7 +159,7 @@ The application uses standard ASP.NET Core configuration. You can modify setting
 | `ASPNETCORE_ENVIRONMENT` | Environment (Development/Production) | Development |
 | `ASPNETCORE_URLS` | Listening URLs | `https://localhost:7000;http://localhost:5000` |
 
-## ?? Testing the Network
+## 🧪 Testing the Network
 
 To test the distributed blockchain network:
 
@@ -175,9 +175,9 @@ To test the distributed blockchain network:
 4. **Mine blocks** on different nodes
 5. **Run consensus** to synchronize
 
-## ?? Security Considerations
+## 🔐 Security Considerations
 
-?? **Important**: This is an educational implementation and should **NOT** be used in production without significant security enhancements:
+⚠️ **Important**: This is an educational implementation and should **NOT** be used in production without significant security enhancements:
 
 - No authentication or authorization
 - No transaction validation (beyond basic input validation)
@@ -186,12 +186,12 @@ To test the distributed blockchain network:
 - No wallet or key management
 - No transaction fees or economic incentives
 
-## ?? Learning Resources
+## 📚 Learning Resources
 
 This implementation is based on the excellent tutorial from **HackerNoon**:
 
-- ?? **Original Tutorial**: [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46) by Daniel van Flymen
-- ?? **HackerNoon**: [hackernoon.com](https://hackernoon.com) - Great resource for tech tutorials and blockchain education
+- 📖 **Original Tutorial**: [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46) by Daniel van Flymen
+- 🌐 **HackerNoon**: [hackernoon.com](https://hackernoon.com) - Great resource for tech tutorials and blockchain education
 
 ### Additional Learning Materials
 
@@ -200,7 +200,7 @@ This implementation is based on the excellent tutorial from **HackerNoon**:
 - [Blockchain Basics](https://www.coursera.org/learn/blockchain-basics) - Coursera course
 - [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) - Comprehensive Bitcoin book
 
-## ?? Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -214,29 +214,29 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 6. Push to the branch (`git push origin feature/AmazingFeature`)
 7. Open a Pull Request
 
-## ?? License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ?? Acknowledgments
+## 🙏 Acknowledgments
 
 - **Daniel van Flymen** for the original [HackerNoon tutorial](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 - **HackerNoon** community for providing excellent educational content
 - **.NET Team** for the amazing framework and tools
 - **Satoshi Nakamoto** for inventing blockchain technology
 
-## ?? Support
+## 📞 Support
 
 If you have any questions or need help getting started:
 
-- ?? Open an issue on GitHub
-- ?? Check the [Discussions](../../discussions) section
-- ?? Review the [Wiki](../../wiki) for additional documentation
+- 📧 Open an issue on GitHub
+- 💬 Check the [Discussions](../../discussions) section
+- 📖 Review the [Wiki](../../wiki) for additional documentation
 
 ---
 
-**? If you found this project helpful, please give it a star!**
+**⭐ If you found this project helpful, please give it a star!**
 
 ---
 
-*Built with ?? using .NET 8 and inspired by the HackerNoon blockchain tutorial.*
+*Built with ❤️ using .NET 8 and inspired by the HackerNoon blockchain tutorial.*
